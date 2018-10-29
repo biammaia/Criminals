@@ -1,15 +1,23 @@
 package Model;
 
+import javax.persistence.*;
+import java.util.Collection;
+import java.util.List;
 
+@Entity
 public class Criminal {
-    private String id;
+    @Id
+    @GeneratedValue
+    private long id;
+
     private String cpf;
     private String first_name;
     private String last_name;
+
+    @Temporal(TemporalType.DATE)
     private String birth_date;
 
-    public Criminal(String id, String cpf, String first_name, String last_name, String birth_date) {
-        this.id = id;
+    public Criminal(String cpf, String first_name, String last_name, String birth_date, List<Crime> crimes, Collection<Crime> crimes1, Gang gang) {
         this.cpf = cpf;
         this.first_name = first_name;
         this.last_name = last_name;
@@ -19,11 +27,11 @@ public class Criminal {
     public Criminal() {
     }
 
-    public String getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -69,6 +77,4 @@ public class Criminal {
                 ", birth_date='" + birth_date + '\'' +
                 '}';
     }
-
-    // TODO verificar se será necessário adicionar ou remover informações
 }
