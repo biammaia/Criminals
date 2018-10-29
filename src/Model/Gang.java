@@ -1,26 +1,33 @@
 package Model;
 
+import javax.persistence.*;
 import java.util.List;
 
+@Entity
 public class Gang {
-    private String id;
+    @Id
+    @Temporal(TemporalType.DATE)
+    private long id;
+
     private String name;
+
+    @OneToMany
     private List<Criminal> criminals;
 
     public Gang() {
     }
 
-    public Gang(String id, String name, List<Criminal> criminals) {
+    public Gang(long id, String name, List<Criminal> criminals) {
         this.id = id;
         this.name = name;
         this.criminals = criminals;
     }
 
-    public String getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -49,5 +56,4 @@ public class Gang {
                 '}';
     }
 
-    // TODO verificar se será necessário adicionar ou remover informações
 }
