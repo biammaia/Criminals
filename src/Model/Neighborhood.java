@@ -10,6 +10,7 @@ public class Neighborhood {
     private long id;
     private String name;
     private String city;
+
     @ManyToMany
     private List<Crime> list_crime;
 

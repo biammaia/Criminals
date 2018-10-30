@@ -12,16 +12,17 @@ public class Proccess {
     @GeneratedValue
     private Long id;
 
-    @ManyToMany
-    private List<Gang> gang;
+    @OneToMany
+    private Criminal criminal;
 
     @ManyToMany
     private List<Crime> crimes;
 
     public Proccess() {}
-    
-    public Proccess(List<Gang> gang, List<Crime> crimes) {
-        this.gang = gang;
+
+    public Proccess(Long id, Criminal criminal, List<Crime> crimes) {
+        this.id = id;
+        this.criminal = criminal;
         this.crimes = crimes;
     }
 
@@ -33,12 +34,12 @@ public class Proccess {
         this.id = id;
     }
 
-    public List<Gang> getGang() {
-        return gang;
+    public Criminal getCriminal() {
+        return criminal;
     }
 
-    public void setGang(List<Gang> gang) {
-        this.gang = gang;
+    public void setCriminal(Criminal criminal) {
+        this.criminal = criminal;
     }
 
     public List<Crime> getCrimes() {
