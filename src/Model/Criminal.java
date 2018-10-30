@@ -17,7 +17,8 @@ public class Criminal {
     @Temporal(TemporalType.DATE)
     private String birth_date;
 
-    public Criminal(String cpf, String first_name, String last_name, String birth_date, List<Crime> crimes, Collection<Crime> crimes1, Gang gang) {
+    public Criminal(long id, String cpf, String first_name, String last_name, String birth_date) {
+        this.id = id;
         this.cpf = cpf;
         this.first_name = first_name;
         this.last_name = last_name;

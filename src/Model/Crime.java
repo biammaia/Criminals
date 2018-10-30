@@ -19,11 +19,20 @@ public class Crime {
     @ManyToOne
     private Gang gang;
 
+    @ManyToOne
+    private Criminal criminal
 
     public Crime(String description, Date date, Gang gang) {
         this.description = description;
         this.date = date;
         this.gang = gang;
+    }
+
+    public Crime(long id, String description, Date date, Criminal criminal) {
+        this.id = id;
+        this.description = description;
+        this.date = date;
+        this.criminal = criminal;
     }
 
     public Crime() {
