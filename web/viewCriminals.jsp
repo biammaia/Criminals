@@ -10,7 +10,7 @@
   <head>
     <title>$Title$</title>
   </head>
-  <body>
-  $END$
+  <body background="images.jpg">
+  <h2>Lista de criminosos</h2>
   </body>
 </html>

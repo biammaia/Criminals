@@ -10,7 +10,7 @@
   <head>
     <title>$Title$</title>
   </head>
-  <body>
-  $END$
+  <body background="images.jpg">
+    <h2>Aqui ficará a lista de processos</h2>
   </body>
 </html>

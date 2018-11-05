@@ -13,8 +13,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <%--<meta http-equiv="refresh" content="0"/>--%>
 </head>
-</head>
-<body>
+
+<body background="images.jpg">
 <fieldset class="principal">
   <h2 >Novo Criminoso</h2>
   <form id="register_form">

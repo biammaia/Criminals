@@ -1,16 +1,22 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: felipeokino
-  Date: 22/10/18
-  Time: 23:08
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  <a href="login.jsp"><button>LOGIN</button></a>
-  </body>
+<head>
+  <title>$Title$</title>
+  <%--<meta http-equiv="refresh" content="0"/>--%>
+</head>
+<body background="images.jpg" style="width: 100%">
+<form style="width: 60%; margin: auto; display: grid; grid-template-columns: auto; row-gap: 15%" autocomplete="off">
+  <span class="label">Login</span>
+  <input class="input" type="text" name="login" autocomplete="false">
+  <span class="label">Senha</span>
+  <input class="input" type="password" name="passwd" autocomplete="false">
+  <div style="display: grid; grid-template-columns: 50% 50%; align-items: center">
+    <a href="userMain.jsp"><button>LOGAR usuario</button></a>
+    <a href="adminMain.jsp" style="margin-left: auto"><button>LOGAR admin</button></a>
+  </div>
+</form>
+
+</body>
 </html>
+

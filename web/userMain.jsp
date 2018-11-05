@@ -10,7 +10,7 @@
   <head>
     <title>$Title$</title>
   </head>
-  <body>
+  <body background="images.jpg">
   <a href="registerCriminal.jsp"><button>Cadastrar criminoso</button></a>
   <a href="registerCrime.jsp"><button>Cadastrar Ocorrencia</button></a>
   </body>
