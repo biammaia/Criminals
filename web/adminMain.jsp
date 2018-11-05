@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <a href="login.jsp"><button>LOGIN</button></a>
+  <a href="registerNeigh.jsp.jsp"><button>Cadastrar bairro</button></a>
+  <a href="registerUser.jsp.jsp"><button>Cadastrar usuario</button></a>
   </body>
 </html>

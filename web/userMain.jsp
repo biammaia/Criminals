@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <a href="login.jsp"><button>LOGIN</button></a>
+  <a href="registerCriminal.jsp"><button>Cadastrar criminoso</button></a>
+  <a href="registerCrime.jsp"><button>Cadastrar Ocorrencia</button></a>
   </body>
 </html>

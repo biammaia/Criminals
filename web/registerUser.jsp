@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <a href="login.jsp"><button>LOGIN</button></a>
+  <h2>Tela cadastro de usuario</h2>
+
   </body>
 </html>
