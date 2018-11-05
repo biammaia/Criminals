@@ -1,9 +1,6 @@
 package Model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -54,7 +51,6 @@ public class Proccess {
     public String toString() {
         return "Proccess{" +
                 "id=" + id +
-                ", gang=" + gang +
                 ", crimes=" + crimes +
                 '}';
     }

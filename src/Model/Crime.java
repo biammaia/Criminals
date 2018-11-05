@@ -20,7 +20,7 @@ public class Crime {
     private Gang gang;
 
     @ManyToOne
-    private Criminal criminal
+    private Criminal criminal;
 
     public Crime(String description, Date date, Gang gang) {
         this.description = description;
