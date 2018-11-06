@@ -4,12 +4,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Registro</title>
+  <title>Registro Bairro</title>
   <meta charset="UTF-8"/>
   <link rel="stylesheet" type="text/css" href="style.css">
   <%--<meta http-equiv="refresh" content="0"/>--%>
 </head>
-<body background="images.jpg">
+<body background="images.jpg" style="color: white">
 <fieldset class="principal">
   <h2 >Novo Bairro</h2>
   <form id="register_form">

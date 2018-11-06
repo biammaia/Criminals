@@ -1,20 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: felipeokino
-  Date: 22/10/18
-  Time: 23:08
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Registro</title>
+  <title>Registro Criminoso</title>
   <meta charset="UTF-8"/>
   <link rel="stylesheet" type="text/css" href="style.css">
   <%--<meta http-equiv="refresh" content="0"/>--%>
 </head>
 
-<body background="images.jpg">
+<body background="images.jpg" style="color: white">
 <fieldset class="principal">
   <h2 >Novo Criminoso</h2>
   <form id="register_form">
