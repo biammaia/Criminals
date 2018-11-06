@@ -2,11 +2,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>$Title$</title>
+  <title>Login</title>
   <%--<meta http-equiv="refresh" content="0"/>--%>
 </head>
 <body background="images.jpg" style="width: 100%">
-<form style="width: 60%; margin: auto; display: grid; grid-template-columns: auto; row-gap: 15%" autocomplete="off">
+<div style="width: 60%; margin: auto; display: grid; grid-template-columns: auto; row-gap: 15%" autocomplete="off">
   <span class="label">Login</span>
   <input class="input" type="text" name="login" autocomplete="false">
   <span class="label">Senha</span>
@@ -15,7 +15,7 @@
     <a href="userMain.jsp"><button>LOGAR usuario</button></a>
     <a href="adminMain.jsp" style="margin-left: auto"><button>LOGAR admin</button></a>
   </div>
-</form>
+</div>
 
 </body>
 </html>

@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Processos</title>
   </head>
   <body background="images.jpg">
-    <h2>Aqui ficará a lista de processos</h2>
+    <h2 style="color: white">Aqui ficará a lista de processos</h2>
   </body>
 </html>
